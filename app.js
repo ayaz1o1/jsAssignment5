@@ -514,3 +514,22 @@ alert("given number is even number");
 else{
 alert("given number is odd number");
 }
+
+
+// 10. Weather input
+
+var temp = +prompt("enter temperature ");
+if(temp > 40){
+alert("its too hot outside");
+}
+if(temp >30){
+alert("weather today is normal");
+}
+if(temp >20){
+alert("Today's weather is cool");
+}
+if (temp >10){
+alert("OMG: Today's weather is so cool");
+}
+
+
