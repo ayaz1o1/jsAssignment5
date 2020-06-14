@@ -480,6 +480,9 @@ grade = "Fail";
 }
 document.write("Grade" + grade+ "<br>");
 document.write("Remarks " + remarks + "<br>");
+
+
+// 7. guess number
 var a = 5;
 var b = +prompt("Guess n enter a number from 1 to 10");
 if(b === a){
@@ -487,4 +490,16 @@ alert("Bingo : Correct Answer ");
 }
 if( b+1 === a){
 alert("Close enough to correct the answer");
+}
+
+
+
+//8. Divisible by 3 or not
+
+var a = +prompt("enter any number");
+if(a%3 === 0){
+alert("given number is divisible by 3");
+}
+else{
+alert("given number is not divisible by 3");
 }
