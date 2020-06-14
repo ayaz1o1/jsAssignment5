@@ -503,3 +503,14 @@ alert("given number is divisible by 3");
 else{
 alert("given number is not divisible by 3");
 }
+
+
+// 9. Check even or odd number
+
+var a = +prompt("enter any number");
+if(a%2 === 0){
+alert("given number is even number");
+}
+else{
+alert("given number is odd number");
+}
