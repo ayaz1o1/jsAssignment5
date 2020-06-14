@@ -449,3 +449,34 @@ alert("False");
 if("car" < "cat"){
 alert("car is smaller than cat");
 }
+
+
+// 6. marks n grade
+var obtainedMarks = +prompt("enter your obtaining marks");
+var totalMarks = +prompt("enter Total Marks");
+var percentage = 100/totalMarks*obtainedMarks;
+document.write("<h1>Marks Sheet</h1>" + "<br>");
+
+document.write("Total Marks" + totalMarks + "<br>");
+document.write("Obtained Marks " + obtainedMarks + "<br>");
+document.write( percentage + "<br>");
+var remarks ;
+var grade ;
+if( percentage => 80){
+remarks = "Excellent";
+grade = "A-One";
+}
+if( percentage => 70){
+remarks = "Good";
+grade = "A";
+}
+if( percentage => 60){
+remarks = "You need to improve";
+grade = "B";
+}
+if( percentage < 60){
+remarks = "Sorry";
+grade = "Fail";
+}
+document.write("Grade" + grade+ "<br>");
+document.write("Remarks " + remarks + "<br>");
