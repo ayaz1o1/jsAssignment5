@@ -480,3 +480,11 @@ grade = "Fail";
 }
 document.write("Grade" + grade+ "<br>");
 document.write("Remarks " + remarks + "<br>");
+var a = 5;
+var b = +prompt("Guess n enter a number from 1 to 10");
+if(b === a){
+alert("Bingo : Correct Answer ");
+}
+if( b+1 === a){
+alert("Close enough to correct the answer");
+}
