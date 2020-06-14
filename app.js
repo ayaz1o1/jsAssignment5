@@ -146,4 +146,306 @@ var b = +prompt("please enter 2nd number for multiplication", "your number");
 var c = a * b ;
 document.write("To Multiply  " + a + " and " + b + " answer is " + c);
 // division  
-var a = +prompt("please enter 1st number will be devided by 2nd number", "you
+var a = +prompt("please enter 1st number will be devided by 2nd number", "your number");
+var b = +prompt("please enter 2nd number " , "your number");
+var c = a / b ;
+document.write("To Devide  " + a + " by " + b + " answer is " + c);
+// modulus 
+var a = +prompt("please enter 1st number for modulus", "your number");
+var b = +prompt("please enter 2nd number",  "your number");
+var c = a % b ;
+document.write("The Modulus  " + a + " by " + b + " answer is " + c + "<br>");
+
+
+// 3. mathematics expression 
+var num ;
+document.write("Value after variable declaration is: ?? " + "<br>");
+num = 6;
+document.write("initial value: " + num + "<br>");
+num = ++num;
+document.write("Value of variable after increament is " + num + "<br>");
+// add 7 to the variable 
+num = 7 + num;
+document.write("value of variable after addition 7 in variable" + num + "<br>");
+// decreament variable 
+num = --num;
+document.write("value of variable after decreament is" + num + "<br>" );
+// division by 3 
+num = num/3 ;
+document.write("value of variable after division by 3 is " + num + "<br>" );
+document.write("The reminder is : 0 " + "<br>");
+
+
+// 4. Ticket price 
+var ticketPrice = 800;
+var totalCost = ticketPrice * 5
+document.write("Cost of 5 ticket buying for a movie is " + totalCost);
+
+
+// 5. Table of 3 
+document.write("<h1> Table of 3" + "<br>");
+for(var i = 0; i < 10 ; i++){
+    var k = 1+i
+    var j = 3 * k ;
+    document.write("3 x " + k  + " = " + j + "<br>  " );
+}
+
+
+// 6. temperature converter 
+
+var celcius = 30;
+// farenheit = (30 * 9 /5) +32 = 86
+
+var Farenheit = 90; 
+
+
+// celcius = ( 90 - 32 ) * 5/9 = 32.22222222 
+
+document.write( "30" + "<sup>o</sup> C " + "is " + "86 " + "<sup>o</sup> " + "F" + "<br>");
+document.write("90" + "<sup>o</sup> F" + "is " + "86 " + "<sup>o</sup> " + "C");
+
+
+// 7. shopping cart 
+var priceOfItem1 = 600;
+var priceOfItem2 = 800;
+var orderedQuantityOfItem1 = 3;
+var orderedQuantityOfItem2 = 7;
+var shippingCharges = 100;
+document.write("<h1>Shopping Cart</h1>" + "<br>");
+document.write("price of item 1 is " + priceOfItem1 + "<br>");
+document.write("Quantity of item 1 is " + orderedQuantityOfItem1 + "<br>");
+document.write("price of item 2 is " + priceOfItem2 + "<br>");
+document.write("Quantity of item 2 is " + orderedQuantityOfItem2 + "<br>");
+document.write("Shipping charges "  + shippingCharges + "<br>" + "<br>");
+var j = priceOfItem1 * orderedQuantityOfItem1 + priceOfItem2 *orderedQuantityOfItem2 + shippingCharges
+document.write("Total cost of your order is " + j  );
+
+
+// 8. marks sheet 
+var totalMarks = 850;
+var marksObtained = 520;
+var j = 100/totalMarks*marksObtained;
+document.write("Total marks " + totalMarks + "<br>");
+document.write("Marks obtained " + marksObtained + "<br>");
+document.write("Percentage " + j);
+
+
+// 9. total currency 
+var totalCurrency = 10*104.80 + 25*28;
+document.write("<h1>Currency in PKR </h1>" + "<br>");
+document.write("Total currency in PKR : " + totalCurrency);
+
+// 10. number 
+var someNumber = 20;
+someNumber = ((someNumber + 5)*10)/2;
+
+
+// 11. age calculator 
+var currentYear = 2020;
+var birthYear = 1983;
+var age = currentYear - birthYear;
+age2 = age + 1
+document.write( "<h1>Age Calculator </h1>" + "<br>");
+document.write("Current Year " + currentYear + "<br>");
+document.write("Birth Year " + birthYear + "<br>");
+document.write("Your age is " + age + " or " + age2 );
+
+// 12. area radius 
+var r = 10;  //radius
+var cOfaCircle = 2*3.142*10;  //circumference of a circle 2 pie r
+
+
+
+document.write("<h1>Geometrizer</h1>" + "<br>");
+document.write("Radius of a Circle is :" + r + "<br>");
+document.write("The circumference is :" + cOfaCircle + "<br>");
+var area = 3.142 * r * r ;
+document.write("The area is " + area);
+
+
+// 13. age n snacks 
+var favSnack = "Chocolate chip";
+var age = 34;
+var maxage = 60;
+var estimatedPerday = 4;
+var totalYears = maxage - age ;
+var estimatedTotalsnacks = totalYears*4;
+document.write("<h1>The Lifetime Supply calculator</h1> " + "<br>");
+document.write("favourite snacks " + favSnack +"<br>");
+document.write( "Current age "+ age + "<br>");
+document.write("Estimated maximum age " + maxage + "<br>");
+document.write("Amount of snacks per day  " + estimatedPerday + "<br>");
+document.write("You will need  " +  " " +  estimatedTotalsnacks + " " + favSnack + " to last you until the ripe old age of " + maxage + "<br>");
+
+
+// CHAPTER 6 to 9
+
+// 1. a++ ++a a-- --a 
+var a = +prompt("write a number");
+document.write("Result" + "<br>");
+document.write("value of   a  is: " + a + "<br>");
+document.write(".............................." + "<br>");
+a = ++a;
+document.write("value of ++a is " + a + "<br>");
+document.write("now the value of a is : " + a + "<br>" + "<br>");
+a = a++;
+document.write("the value of a++ is : "+ a + "<br>");
+document.write("now the value of a is :" + a + "<br>" + "<br>");
+
+document.write("the value of --a is" + "<br>");
+document.write("now the value of a is : " + a + "<br>" +"<br>");
+
+document.write("the value of  a-- is " + a + "<br>");
+document.write("now the value of a is " + a + "<br>");
+
+
+// 2. pre post increment, decrement 
+var a = 2, b = 1;
+var result = --a - --b + ++b + b-- ;
+
+// --a it is pre decrement 1 will less before next step and a will be 1;
+// 1 - --b again pre decrement will less 1 from b so 1 - 0 
+// 1 - 0 and now pre increment in b will make it again 1 so 1 - 0 + 1
+// 1 - 0 + 1 and here is post decrement will effect after this step so current value will remain same for current step
+// 1 - 0 + 1 + 1 result is 3 
+document.write(" a is : 2 " + "<br>" );
+document.write(" b is : 1 " + "<br>" );
+document.write(" result  is : 3 " + "<br>" );
+
+// 3. prompt n greet 
+var name = prompt("write your name");
+alert(" Welcome Mr " + name);
+
+
+//4. its empty 
+
+
+// 5.. table
+var l = +prompt("enter a number");
+    
+    if ( l > 0){ 
+        document.write("<h1> Table of " + l + "<br>");
+        for(var i = 0; i < 10 ; i++){
+            var k = 1+i
+            var j = l * k ;
+            document.write(l + " x " + k  + " = " + j + "<br>  " );
+        }    
+    
+}
+else{
+document.write("<h1> Table of 5" + "<br>");
+for(var i = 0; i < 10 ; i++){
+    var k = 1+i
+    var j = 5 * k ;
+    document.write("5 x " + k  + " = " + j + "<br>  " );
+}
+}
+
+
+
+
+// 6. subjects n marks 
+
+var sub1 = prompt("enter your 1st subjest");
+var sub2 = prompt("enter your 2nd subjest");
+var sub3 = prompt("enter your 3rd subjest");
+
+var totalMarks = 100;
+var sub1Marks = +prompt("enter your " + sub1 + " marks");
+var sub2Marks = +prompt("enter your " + sub2 + " marks");
+var sub3Marks = +prompt("enter your " + sub3 + " marks");
+var totalobtainedmarks = sub1Marks + sub2Marks + sub3Marks;
+
+var sub1per = 100/totalMarks*sub1Marks;
+var sub2per = 100/totalMarks*sub2Marks;
+var sub3per  = 100/totalMarks*sub3Marks;
+
+document.write("Subject total marks" + "  " + " obtained marks" + " Percentage" + "<br>");
+
+document.write(sub1 + " " + totalMarks + " " + sub1Marks + " " + sub1per + "<br>");
+document.write(sub2 + " " + totalMarks + " " + sub2Marks + " " + sub2per + "<br>");
+document.write(sub3 + " " + totalMarks + " " + sub3Marks + " " + sub3per + "<br>");
+
+
+
+
+var totalper = sub1per + sub2per + sub3per;
+ var tot = totalMarks*3;
+ var totalobtainedmarks = sub1Marks + sub2Marks + sub3Marks;
+ document.write(tot + " " + totalobtainedmarks + " " + totalper);
+
+
+
+
+//  CHAP 9 TO 11 
+// 1. city of light 
+var city = prompt("enter city name");
+if(city === "Karachi"){
+    alert(" Welcome to the  city of light")
+}
+
+// 2.male female
+
+var gender = prompt("enter your gender");
+if (gender === "male"){
+    alert("Good Morning Sir");
+}
+if (gender === "female"){
+    alert("Good Morning Ma'am");
+}
+
+
+// 3. traffic signals  
+
+var color = prompt("write color of traffic signal");
+
+if (color === "Red"){
+    alert("Must Stop")
+}
+if (color === "Yellow"){
+    alert("Ready to Move")
+}
+if (color === "Green"){
+    alert("Move now")
+}
+
+
+
+// 5. statements
+
+var a = 4;
+if (++a === 5){
+alert("given condition for variable a is true");
+} 
+var b = 82;
+if (b++ === 83){
+alert("given condition for variable b is true");
+}
+ var c = 12;
+if (c++ === 13){
+alert("condition 1 is true");
+}
+if (c === 13){
+alert("condition 2 is true");
+}
+if (++c < 14){
+alert("condition 3 is true");
+}
+if(c === 14){
+alert("condition 4 is true");
+}
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){
+alert("The cost equals");
+}
+if (true){
+alert("True");
+}
+if (false){
+alert("False");
+}
+if("car" < "cat"){
+alert("car is smaller than cat");
+}
