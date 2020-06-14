@@ -532,4 +532,38 @@ if (temp >10){
 alert("OMG: Today's weather is so cool");
 }
 
+// 11. Operator n 2 number operation
 
+var fnumber = +prompt("enter first number");
+
+
+var snumber = +prompt("enter second  number");
+
+var operator = prompt("enter operator like +,-,*,/,% ");
+
+var result;
+
+if(operator == "+"){
+result = fnumber + snumber;
+alert(" operation on 2 numbers using + is " + result);
+}
+
+if(operator == "-"){
+result = snumber + fnumber;
+alert(" operation on 2 numbers using - is " + result);
+}
+
+if(operator == "*"){
+result = fnumber * snumber;
+alert(" operation on 2 numbers using * is " + result);
+}
+
+if(operator == "/"){
+result = fnumber / snumber;
+alert(" operation on 2 numbers using / is " + result);
+}
+
+if(operator == "%"){
+result = fnumber % snumber;
+alert(" operation on 2 numbers using % is " + result);
+}
